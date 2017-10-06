@@ -13,6 +13,8 @@
 		DFD950BD1F8768B50024731E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD950BC1F8768B50024731E /* Assets.xcassets */; };
 		DFD950C01F8768B50024731E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD950BE1F8768B50024731E /* LaunchScreen.storyboard */; };
 		DFD950CB1F8768B50024731E /* ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD950CA1F8768B50024731E /* ImageViewTests.swift */; };
+		DFD950D71F876A360024731E /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD950D51F876A360024731E /* lamp_off.png */; };
+		DFD950D81F876A360024731E /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD950D61F876A360024731E /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		DFD950C61F8768B50024731E /* ImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD950CA1F8768B50024731E /* ImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewTests.swift; sourceTree = "<group>"; };
 		DFD950CC1F8768B50024731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD950D51F876A360024731E /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		DFD950D61F876A360024731E /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		DFD950B41F8768B50024731E /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				DFD950D51F876A360024731E /* lamp_off.png */,
+				DFD950D61F876A360024731E /* lamp_on.png */,
 				DFD950B51F8768B50024731E /* AppDelegate.swift */,
 				DFD950B71F8768B50024731E /* ViewController.swift */,
 				DFD950B91F8768B50024731E /* Main.storyboard */,
@@ -183,7 +189,9 @@
 			files = (
 				DFD950C01F8768B50024731E /* LaunchScreen.storyboard in Resources */,
 				DFD950BD1F8768B50024731E /* Assets.xcassets in Resources */,
+				DFD950D81F876A360024731E /* lamp_on.png in Resources */,
 				DFD950BB1F8768B50024731E /* Main.storyboard in Resources */,
+				DFD950D71F876A360024731E /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
